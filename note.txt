@@ -1,0 +1,62 @@
+
+# Full Doc for setting up SNS
+https://docs.aws.amazon.com/sns/latest/dg/sns-setting-up.html
+
+Part 1:
+
+  https://console.aws.amazon.com/iam/home#/users
+  
+  Step 1: Create an AWS account and an IAM administrator user
+
+  Step 2: Create an IAM user and get your AWS credentials
+  Next steps
+
+Part 2:
+
+  Getting started with Amazon SNS
+  https://us-east-2.console.aws.amazon.com/sns/v3/home
+
+
+
+
+Documents used for Node.js project
+
+  https://docs.aws.amazon.com/sns/latest/dg/sms_publish-to-phone.html#sms_publish_sdk
+
+
+Reference for code in project:
+
+1) Locking the API Version ("apiVersion" as config)
+
+  https://docs.aws.amazon.com/AWSJavaScriptSDK/latest/AWS/SNS.html
+  =>
+  Locking the API Version
+
+
+2) publish method:
+Ref: https://docs.aws.amazon.com/sdk-for-javascript/v2/developer-guide/sns-examples-publishing-messages.html
+
+  2-1)
+  Attribute params (search keyword: MessageAttributes) as in publish(params):
+
+  Ref:
+  https://docs.aws.amazon.com/AWSJavaScriptSDK/latest/AWS/SNS.html#setSMSAttributes-property
+
+
+3) Make AWS.Request "promisified"
+Ref:
+https://aws.amazon.com/blogs/developer/support-for-promises-in-the-sdk/
+Go to section:
+Promise-Based Method
+
+
+
+
+Reference:
+
+# Portal of SNS service
+# https://us-east-2.console.aws.amazon.com/sns/v3/home?region=us-east-2#/homepage
+
+
+# Pricing of SNS service (Worldwide price)
+# https://aws.amazon.com/sns/sms-pricing/
